@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-d31p35mmcj7s738u8e60-a.oregon-postgres.render.com/demo_o2mm
+    username: demo_o2mm_user
+    password: "plwc9Jb0IHSbubbWbmgPwQqrjtZ3U2hI"
+    hikari:
+      maxLifetime: 1800000
+      maximum-pool-size: 10
+      minimum-idle: 1
+      idle-timeout: 600000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
