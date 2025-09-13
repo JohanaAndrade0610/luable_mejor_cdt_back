@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://dpg-d31p35mmcj7s738u8e60-a.oregon-postgres.render.com/demo_o2mm
-    username: demo_o2mm_user
-    password: "plwc9Jb0IHSbubbWbmgPwQqrjtZ3U2hI"
+    url: jdbc:postgresql://dpg-d32u0i7diees73940sqg-a.oregon-postgres.render.com/demo_mejor_cdt
+    username: demo_mejor_cdt_user
+    password: "U6aiaZ45jw7hRESLZiF06W1dtJXutvfj"
     hikari:
       maxLifetime: 1800000
       maximum-pool-size: 10
