@@ -21,7 +21,6 @@ public class UserInvestmentController {
 
     @GetMapping("/getByDocument/")
     public CDTDTO getUsers(@RequestParam String id) {
-        System.out.println("getByDocument");
         return new CDTDTO(repository.findByUserId(id.isBlank() ? null : id));
     }
 }
